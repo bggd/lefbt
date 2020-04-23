@@ -1,0 +1,26 @@
+{
+	"authors": [
+		"birthggd"
+	],
+	"copyright": "Copyright © 2020, birthggd",
+	"dependencies": {
+		"bindbc-glfw": "~>0.9.0",
+    "bindbc-opengl": "~>0.12.0",
+    "lefbt:dim": "*"
+	},
+  "versions": ["GLFW_33"],
+  "subConfigurations": {
+    "bindbc-glfw": "static"
+  },
+	"description": "Level Editor for BombThrower.",
+	"license": "MIT",
+	"name": "lefbt",
+	"subPackages": [
+		"./dim"
+	],
+  "sourceFiles-windows": [
+    "thirdparty/lib/glfw3.lib",
+    "thirdparty/lib/imgui.lib"
+  ],
+  "libs-windows": ["user32", "gdi32", "msvcrt", "opengl32"]
+}
