@@ -7,3 +7,6 @@
 [submodule "dim"]
 	path = dim
 	url = https://github.com/bggd/dim
+[submodule "stb"]
+	path = stb
+	url = https://github.com/nothings/stb
