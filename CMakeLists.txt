@@ -24,3 +24,8 @@ target_include_directories(imgui PRIVATE imgui)
 target_link_libraries(imgui OpenGL::GL glfw)
 
 install(TARGETS imgui)
+
+
+add_library(stb_image dim_stb_image.c)
+
+install(TARGETS stb_image)

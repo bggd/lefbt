@@ -20,7 +20,8 @@
 	],
 	"sourceFiles-windows": [
 		"thirdparty/lib/glfw3.lib",
-		"thirdparty/lib/imgui.lib"
+		"thirdparty/lib/imgui.lib",
+    "thirdparty/lib/stb_image.lib"
 	],
-	"libs-windows": ["user32", "gdi32", "msvcrt", "opengl32"]
+	"libs-windows": ["user32", "gdi32", "msvcrtd", "opengl32"]
 }
